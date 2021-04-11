@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 0vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.about-section{
+    background: url(../images/bg1.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #222;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    border-bottom: 1px solid #995251;
+    border-bottom-width: thin;
+    padding-bottom: 5px;
+}
+
+.text{
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#coreValues {
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+#values {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#values img {
+    margin: 5px;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 5px 5px 3px #222, 10px 10px 5px #995251;
+}
+
+
+#motives {
+    width: 700px;
+    margin: 10px auto;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+.taglines {
+
+    border-top: 2px dashed;
+    border-color: #995251;
+    margin: 0;
+    padding: 30px;
+}
+
+.taglines:nth-child(even) {
+    border-left: 2px dashed;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+}
+
+.taglines:nth-child(odd) {
+    border-right: 2px dashed;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+    text-align: right;
+}
+
+.taglines:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.taglines:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media screen and (max-width: 1200px){
+    .inner-container{
+        padding: 80px;
+    }
+    
+@media screen and (max-width: 1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        padding: 80px;
+    }
+}
+    
+@media screen and (max-width: 600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

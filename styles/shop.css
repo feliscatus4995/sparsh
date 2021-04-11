@@ -1,0 +1,25 @@
+.nero {
+  padding-top: 160px;
+  padding-bottom: 140px;
+  font-family: 'montserratlight', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  background: #666 url("../images/pvimg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nero__heading {
+  font-size: 48px;
+}
+
+.nero__bold {
+  font-weight: 700;
+}
+
+.nero__text {
+  font-size: 30px;
+}
+
+
